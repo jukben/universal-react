@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Web components with empty store App renders correctly 1`] = `
+<div
+  className="cAkaVW"
+>
+  <div
+    className="hmDDgf"
+  >
+    App is loading...
+  </div>
+</div>
+`;
+
+exports[`Web components with empty store Button renders correctly 1`] = `
+<button
+  className="cKltRP"
+/>
+`;
+
+exports[`Web components with empty store InfoBox (danger) with text renders correctly 1`] = `
+<div
+  className="dFzGre"
+>
+  <span
+    aria-label="stop"
+    role="img"
+  >
+    ✋
+  </span>
+   
+  Text
+</div>
+`;
+
+exports[`Web components with empty store InfoBox with text renders correctly 1`] = `
+<div
+  className="fhvbIR"
+>
+  <span
+    aria-label="points up"
+    role="img"
+  >
+    ☝
+  </span>
+   
+  Text
+</div>
+`;
+
+exports[`Web components with mocked store (not logged) App renders correctly 1`] = `
+<div
+  className="cAkaVW"
+>
+  <div />
+</div>
+`;
+
+exports[`Web components with mocked store (not logged) Button renders correctly 1`] = `
+<button
+  className="cKltRP"
+/>
+`;
+
+exports[`Web components with mocked store (not logged) InfoBox (danger) with text renders correctly 1`] = `
+<div
+  className="dFzGre"
+>
+  <span
+    aria-label="stop"
+    role="img"
+  >
+    ✋
+  </span>
+   
+  Text
+</div>
+`;
+
+exports[`Web components with mocked store (not logged) InfoBox with text renders correctly 1`] = `
+<div
+  className="fhvbIR"
+>
+  <span
+    aria-label="points up"
+    role="img"
+  >
+    ☝
+  </span>
+   
+  Text
+</div>
+`;

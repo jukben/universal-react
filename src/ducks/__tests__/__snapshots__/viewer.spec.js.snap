@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Viewer epics should correctly dispatch fetch success 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "joke": "random joke haha",
+    },
+    "type": "funnycats/viewer/FETCH_SUCCESS",
+  },
+]
+`;
+
+exports[`Viewer epics should correctly fetch random gif 1`] = `
+Array [
+  Object {
+    "type": "funnycats/viewer/FETCH_INIT",
+  },
+  Object {
+    "payload": Object {
+      "joke": "Chuck Norris has seen it all, and done it all, so many times that he has long ago lost count.",
+    },
+    "type": "funnycats/viewer/FETCH_SUCCESS",
+  },
+]
+`;
+
+exports[`Viewer epics should make correct report about error 1`] = `
+Array [
+  Object {
+    "type": "funnycats/viewer/FETCH_INIT",
+  },
+  Object {
+    "payload": Object {
+      "error": Object {
+        "error": true,
+        "error_description": "ChuckNorris.io API error",
+      },
+    },
+    "type": "funnycats/viewer/FETCH_ERROR",
+  },
+]
+`;

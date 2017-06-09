@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`API Search should get normalized data 1`] = `"Chuck Norris has seen it all, and done it all, so many times that he has long ago lost count."`;
+
+exports[`API Search should throw error 1`] = `
+Object {
+  "error": true,
+  "error_description": "ChuckNorris.io API error",
+}
+`;
