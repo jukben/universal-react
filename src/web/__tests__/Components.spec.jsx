@@ -44,7 +44,7 @@ describe('Web components with empty store', () => {
   });
 });
 
-describe('Web components with mocked store (not logged)', () => {
+describe('Web components with mocked store (fetched data)', () => {
   it('App renders correctly', () => {
     const tree = renderer.create(injected(<App />, storeFetched)).toJSON();
     expect(tree).toMatchSnapshot();

@@ -2,10 +2,10 @@
 
 exports[`Web components with empty store App renders correctly 1`] = `
 <div
-  className="cAkaVW"
+  className="sc-EHOje bgIqlJ"
 >
   <div
-    className="hmDDgf"
+    className="sc-bZQynM dSxaLX"
   >
     App is loading...
   </div>
@@ -14,13 +14,13 @@ exports[`Web components with empty store App renders correctly 1`] = `
 
 exports[`Web components with empty store Button renders correctly 1`] = `
 <button
-  className="cKltRP"
+  className="sc-bwzfXH fhVPAQ"
 />
 `;
 
 exports[`Web components with empty store InfoBox (danger) with text renders correctly 1`] = `
 <div
-  className="dFzGre"
+  className="sc-htpNat fRmjjz"
 >
   <span
     aria-label="stop"
@@ -35,7 +35,7 @@ exports[`Web components with empty store InfoBox (danger) with text renders corr
 
 exports[`Web components with empty store InfoBox with text renders correctly 1`] = `
 <div
-  className="fhvbIR"
+  className="sc-htpNat kGGqzs"
 >
   <span
     aria-label="points up"
@@ -48,23 +48,23 @@ exports[`Web components with empty store InfoBox with text renders correctly 1`]
 </div>
 `;
 
-exports[`Web components with mocked store (not logged) App renders correctly 1`] = `
+exports[`Web components with mocked store (fetched data) App renders correctly 1`] = `
 <div
-  className="cAkaVW"
+  className="sc-EHOje bgIqlJ"
 >
   <div />
 </div>
 `;
 
-exports[`Web components with mocked store (not logged) Button renders correctly 1`] = `
+exports[`Web components with mocked store (fetched data) Button renders correctly 1`] = `
 <button
-  className="cKltRP"
+  className="sc-bwzfXH fhVPAQ"
 />
 `;
 
-exports[`Web components with mocked store (not logged) InfoBox (danger) with text renders correctly 1`] = `
+exports[`Web components with mocked store (fetched data) InfoBox (danger) with text renders correctly 1`] = `
 <div
-  className="dFzGre"
+  className="sc-htpNat fRmjjz"
 >
   <span
     aria-label="stop"
@@ -77,9 +77,9 @@ exports[`Web components with mocked store (not logged) InfoBox (danger) with tex
 </div>
 `;
 
-exports[`Web components with mocked store (not logged) InfoBox with text renders correctly 1`] = `
+exports[`Web components with mocked store (fetched data) InfoBox with text renders correctly 1`] = `
 <div
-  className="fhvbIR"
+  className="sc-htpNat kGGqzs"
 >
   <span
     aria-label="points up"

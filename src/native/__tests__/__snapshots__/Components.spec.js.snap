@@ -379,7 +379,7 @@ exports[`Web components with empty store Viewer renders correctly 1`] = `
 </View>
 `;
 
-exports[`Web components with mocked store (not logged) App renders correctly 1`] = `
+exports[`Web components with mocked store (fetched data) App renders correctly 1`] = `
 <View
   style={
     Object {
@@ -723,7 +723,7 @@ exports[`Web components with mocked store (not logged) App renders correctly 1`]
 </View>
 `;
 
-exports[`Web components with mocked store (not logged) InfoBox (danger) with text renders correctly 1`] = `
+exports[`Web components with mocked store (fetched data) InfoBox (danger) with text renders correctly 1`] = `
 <View
   danger={true}
   style={
@@ -790,7 +790,7 @@ exports[`Web components with mocked store (not logged) InfoBox (danger) with tex
 </View>
 `;
 
-exports[`Web components with mocked store (not logged) InfoBox with text renders correctly 1`] = `
+exports[`Web components with mocked store (fetched data) InfoBox with text renders correctly 1`] = `
 <View
   danger={false}
   style={
@@ -857,7 +857,7 @@ exports[`Web components with mocked store (not logged) InfoBox with text renders
 </View>
 `;
 
-exports[`Web components with mocked store (not logged) Joke renders correctly 1`] = `
+exports[`Web components with mocked store (fetched data) Joke renders correctly 1`] = `
 <View
   style={
     Array [
@@ -887,7 +887,7 @@ exports[`Web components with mocked store (not logged) Joke renders correctly 1`
 </View>
 `;
 
-exports[`Web components with mocked store (not logged) Viewer renders correctly 1`] = `
+exports[`Web components with mocked store (fetched data) Viewer renders correctly 1`] = `
 <View
   style={
     Array [
