@@ -9,11 +9,11 @@ type InfoBoxProps = {
 };
 
 const InfoBoxWrapper = styled.View`
-  padding-top: 5;
-  padding-bottom: 5;
-  padding-left: 10;
-  padding-right: 10;
-  margin: 10;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 10px;
   border-style: solid;
   border-color: ${({ danger }) => (danger ? '#d73a49' : '#0366d6')};
   border-width: 1;
