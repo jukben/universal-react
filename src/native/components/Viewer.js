@@ -11,13 +11,13 @@ import Joke from './Joke';
 import InfoBox from './InfoBox';
 
 const Content = styled.View`
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `;
 
 const Wrapper = styled.View`
-  margin: 20;
+  margin: 20px;
 `;
 
 type ViewerProps = {

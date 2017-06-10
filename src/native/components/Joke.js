@@ -4,7 +4,7 @@ import styled from 'styled-components/native';
 import { Text } from 'native-base';
 
 const JokeWrapper = styled.View`
-  padding: 5;
+  padding: 5px;
 `;
 
 type JokeProps = {
