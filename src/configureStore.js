@@ -29,8 +29,8 @@ const configureStore = (options, storage) => {
 
   const store = createStore(reducers, initialState, enhancers);
 
-  // let's the magic happens :–)
-  persistStore(store, { blacklist: ['ui'], storage }).purge();
+  // let the magic happen :–)
+  persistStore(store, { blacklist: ['ui'], storage }); // .purge() // in case you want to purge the store
 
   return store;
 };
