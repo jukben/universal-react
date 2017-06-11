@@ -24,6 +24,7 @@ Using [ESlint Airbnb config](https://www.npmjs.com/package/eslint-config-airbn) 
 - `start-ios` - start iOS development (iPhone 7) + React Native CLI
 - `start-android` - start Android development + React Native CLI + you could combine with emulator (`emulator -avd Nexus_5X_API_23`),
 - `start-web` - start web app at port 3000
+- `build-web` - build web app into `build/` folder
 - `test` - run tests
 - `coverage` - generate test coverage
 - `lint` - starts ESlint check
