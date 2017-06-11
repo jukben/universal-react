@@ -6,11 +6,11 @@ import { getJoke } from '../selectors/viewer';
 import { getRandomJoke } from '../api/search';
 import type { EpicDependencies, Error, Action } from '../flow';
 
-export const BOOTSTRAP = 'funnycats/viewer/BOOTSTRAP';
-export const SEARCH = 'funnycats/viewer/SEARCH';
-export const FETCH_INIT = 'funnycats/viewer/FETCH_INIT';
-export const FETCH_SUCCESS = 'funnycats/viewer/FETCH_SUCCESS';
-export const FETCH_ERROR = 'funnycats/viewer/FETCH_ERROR';
+export const BOOTSTRAP = 'universalreact/viewer/BOOTSTRAP';
+export const SEARCH = 'universalreact/viewer/SEARCH';
+export const FETCH_INIT = 'universalreact/viewer/FETCH_INIT';
+export const FETCH_SUCCESS = 'universalreact/viewer/FETCH_SUCCESS';
+export const FETCH_ERROR = 'universalreact/viewer/FETCH_ERROR';
 
 type State = {
   searchLoading: boolean,

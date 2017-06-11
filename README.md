@@ -1,5 +1,5 @@
 # Universal React
-# Based on:
+## Based on:
 - [React](https://facebook.github.io/react/) and [React Native](https://facebook.github.io/react-native/) ❤️
 - Webapp built on top of [CRA](https://github.com/facebookincubator/create-react-app)
 - [Redux](http://redux.js.org/) for data management
@@ -9,6 +9,9 @@
 - [Styled-Components](https://styled-components.com) for declarative styling with ease 💅
 - [Native-Base](https://nativebase.io/) for more native-like feeling without sweating.
 - and more, see `package.json`
+
+## Tests
+Testing powered by Jest including async Epics testing even with HTTP mocks. Check out the `__tests__` folders.
 
 ## Development
 Using [ESlint Airbnb config](https://www.npmjs.com/package/eslint-config-airbn) for linting code along with [Prettier](https://github.com/prettier/prettier) and [FlowType](https://typeflow.org) for type checking. There is automatic precommit flow, that checks code validity for you.
