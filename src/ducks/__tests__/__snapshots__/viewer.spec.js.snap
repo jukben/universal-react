@@ -6,7 +6,7 @@ Array [
     "payload": Object {
       "joke": "random joke haha",
     },
-    "type": "funnycats/viewer/FETCH_SUCCESS",
+    "type": "universalreact/viewer/FETCH_SUCCESS",
   },
 ]
 `;
@@ -14,13 +14,13 @@ Array [
 exports[`Viewer epics should correctly fetch random gif 1`] = `
 Array [
   Object {
-    "type": "funnycats/viewer/FETCH_INIT",
+    "type": "universalreact/viewer/FETCH_INIT",
   },
   Object {
     "payload": Object {
       "joke": "Chuck Norris has seen it all, and done it all, so many times that he has long ago lost count.",
     },
-    "type": "funnycats/viewer/FETCH_SUCCESS",
+    "type": "universalreact/viewer/FETCH_SUCCESS",
   },
 ]
 `;
@@ -28,7 +28,7 @@ Array [
 exports[`Viewer epics should make correct report about error 1`] = `
 Array [
   Object {
-    "type": "funnycats/viewer/FETCH_INIT",
+    "type": "universalreact/viewer/FETCH_INIT",
   },
   Object {
     "payload": Object {
@@ -37,7 +37,7 @@ Array [
         "error_description": "ChuckNorris.io API error",
       },
     },
-    "type": "funnycats/viewer/FETCH_ERROR",
+    "type": "universalreact/viewer/FETCH_ERROR",
   },
 ]
 `;
