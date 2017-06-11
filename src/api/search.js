@@ -1,6 +1,7 @@
 // @flow
+import type { Error } from '../flow';
 
-export const getRandomJoke = () =>
+export const getRandomJoke = (): Promise<Error | string> =>
   fetch('https://api.chucknorris.io/jokes/random', {
     headers: new Headers({ Accept: 'application/json' }),
     method: 'GET',

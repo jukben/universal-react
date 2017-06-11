@@ -4,8 +4,8 @@ import viewerReducer, { fetchInitAction, fetchSuccessAction } from '../viewer';
 import configureEpics from '../../configureEpics';
 
 import stateFetchedMock from '../../__test__/state.fetched.json';
-import httpGiphyMockSuccess from '../../api/__tests__/giphy.successFetch.json';
-import httpGiphyMockError from '../../api/__tests__/giphy.errorAuth.json';
+import httpMockSuccess from '../../api/__tests__/mock.successFetch.json';
+import httpMockError from '../../api/__tests__/mock.errorAuth.json';
 
 const wait = (time = 0) => new Promise(res => setTimeout(() => res(), time));
 
@@ -59,7 +59,7 @@ describe('Viewer epics', () => {
   });
 
   it('should correctly fetch random gif', async () => {
-    fetch.mockResponse(JSON.stringify(httpGiphyMockSuccess), { status: 200 });
+    fetch.mockResponse(JSON.stringify(httpMockSuccess), { status: 200 });
     store.dispatch(fetchInitAction());
 
     await wait();
@@ -67,7 +67,7 @@ describe('Viewer epics', () => {
   });
 
   it('should make correct report about error', async () => {
-    fetch.mockResponse(JSON.stringify(httpGiphyMockError), { status: 400 });
+    fetch.mockResponse(JSON.stringify(httpMockError), { status: 400 });
     store.dispatch(fetchInitAction());
 
     await wait();

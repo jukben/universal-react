@@ -1,6 +1,6 @@
 import { getRandomJoke } from '../search';
-import mockSuccess from './giphy.successFetch.json';
-import mockError from './giphy.errorAuth.json';
+import mockSuccess from './mock.successFetch.json';
+import mockError from './mock.errorAuth.json';
 
 describe('API Search', () => {
   afterEach(() => {
