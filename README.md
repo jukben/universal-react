@@ -11,7 +11,7 @@
 - and more, see `package.json`
 
 ## Tests
-Testing powered by Jest including async Epics testing even with HTTP mocks. Check out the `__tests__` folders.
+Testing powered by [Jest](https://facebook.github.io/jest/) including async Epics testing even with HTTP mocks. Check out the `__tests__` folders.
 
 ## Development
 Using [ESlint Airbnb config](https://www.npmjs.com/package/eslint-config-airbn) for linting code along with [Prettier](https://github.com/prettier/prettier) and [FlowType](https://typeflow.org) for type checking. There is already automatic precommit flow that checks code validity for you.
