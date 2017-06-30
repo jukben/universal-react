@@ -14,7 +14,7 @@
 Testing powered by Jest including async Epics testing even with HTTP mocks. Check out the `__tests__` folders.
 
 ## Development
-Using [ESlint Airbnb config](https://www.npmjs.com/package/eslint-config-airbn) for linting code along with [Prettier](https://github.com/prettier/prettier) and [FlowType](https://typeflow.org) for type checking. There is automatic precommit flow, that checks code validity for you.
+Using [ESlint Airbnb config](https://www.npmjs.com/package/eslint-config-airbn) for linting code along with [Prettier](https://github.com/prettier/prettier) and [FlowType](https://typeflow.org) for type checking. There is already automatic precommit flow that checks code validity for you.
 
 - Entry point for `Web` app is in `src/web.jsx`
 - Entry point for `Native` app is in `src/native.js`
@@ -25,8 +25,8 @@ Using [ESlint Airbnb config](https://www.npmjs.com/package/eslint-config-airbn) 
 - `start-android` - start Android development + React Native CLI + you could combine with emulator (`emulator -avd Nexus_5X_API_23`),
 - `start-web` - start web app at port 3000
 - `build-web` - build web app into `build/` folder
-- `test` - run tests
+- `test` - run Jest tests
 - `coverage` - generate test coverage
-- `lint` - starts ESlint check
-- `flow` - starts FlowType type check
+- `lint` - start ESlint check
+- `flow` - start FlowType type check
 
